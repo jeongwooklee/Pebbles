@@ -1,0 +1,8 @@
+node_modules
+project.xcworkspace/
+xcuserdata/
+
+*.sublime-workspace
+*.sublime-project
+*.swp
+.DS_Store
