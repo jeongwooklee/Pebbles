@@ -10,7 +10,7 @@ var PrimaryButton = React.createClass({
     return (
       <TouchableHighlight
         style={styles.button}
-        underlayColor='#2d918a'
+        underlayColor='#bbd0e8'
         onPress={this.props.onPress}
       >
         <Text style={styles.buttonText}>{this.props.text}</Text>
@@ -21,14 +21,16 @@ var PrimaryButton = React.createClass({
 
 var styles = StyleSheet.create({
   button: {
-    padding: 10,
+    paddingTop: 10,
+    paddingBottom: 10,
+    paddingLeft: 28,
+    paddingRight: 28,
     borderWidth: 1,
-    borderRadius: 2,
-    borderColor: '#00aaa0',
-    backgroundColor: '#00aaa0',
+    borderRadius: 4,
+    borderColor: '#1e65b3',
   },
   buttonText: {
-    color: '#ffffff',
+    color: '#1e65b3',
   },
 });
 

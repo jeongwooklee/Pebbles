@@ -20,7 +20,7 @@ var Pebbles = React.createClass({
         style={styles.navigatorIOS}
         initialRoute={{
           component: IndexView,
-          title: 'Home'
+          title: 'Pebbles'
         }}
       />
     );
